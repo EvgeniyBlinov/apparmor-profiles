@@ -12,8 +12,6 @@
 	#include <abstractions/user-download>
 	#include <abstractions/user-tmp>
 	#include <abstractions/node-webkit>
-	#include <abstractions/site/base>
-	#include <abstractions/site/de>
 
 	## Note: profile for text-only skype, disabled sound/video
 	#include <abstractions/pulse-deny>
@@ -45,7 +43,7 @@
 	deny /etc/issue r,
 	deny /etc/hostname r,
 	deny /dev/disk/by-id/ r,
-	deny /home/fraggod/.rnd r,
+	deny @{HOME}/.rnd r,
 	deny /sys/class/net/ r,
 	deny /sys/devices/virtual/net/** r,
 
