@@ -22,6 +22,10 @@
 	/opt/skypeforlinux/** kmr,
 	/opt/skypeforlinux/skypeforlinux ix,
 
+	/usr/bin/ r,
+	/usr/which ixr,
+	/usr/bin/apt-key ixr,
+
 	owner @{HOME}/.config/skypeforlinux/ rw,
 	owner @{HOME}/.config/skypeforlinux/** krwm,
 	owner @{HOME}/[dD]ownload{,s}/** k,
